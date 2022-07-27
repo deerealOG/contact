@@ -151,6 +151,7 @@ body {
   background: #ffffff;
   margin-top: 8px;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 .nav {
   position: fixed;
