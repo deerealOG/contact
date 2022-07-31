@@ -135,16 +135,16 @@ body {
   right: 5%; 
   margin-top: -45px;
   width: 2.2em;
-  height: 45px;
+  height: 40px;
   z-index: 500;
 }
 
 .hamburger div {
   position: relative;
-  top: -8px;
+  top: -6px;
   right: 5%;
   width: 2.6em;
-  height: 8px;
+  height: 6px;
   border-radius: 3px;
   background: #f37821;
   margin-top: 8px;
