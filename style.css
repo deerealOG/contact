@@ -276,6 +276,11 @@ Animations
 .show {
   display: flex;
 }
+main {
+  display: flex;
+  border: solid;
+  justify-content: center;
+}
 #title {
   font-family: "Poppins";
   font-style: normal;
@@ -334,18 +339,23 @@ Animations
 }
 #catCont{
   position: absolute;
-  top: 120px;
-  left: 10%;
+  top: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+  height: fit-content;
+  padding-bottom: 100px;
 }
 #category {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding-bottom: 50px;
   gap: 50px;
   position: relative;
-  top: 100px;
+  top: 0px;
 }
 
 #category .title {
@@ -374,8 +384,7 @@ Animations
   color: #262262;
   height: 500px;
 }
-#smallContainer {
-}
+
 aside {
   display: none;
 }
