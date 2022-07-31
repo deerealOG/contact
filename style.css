@@ -201,7 +201,7 @@ Animations
 }
 #toggle:checked + .hamburger .meat {
   transform: rotate(45deg);
-  margin-top: -8px;
+  margin-top: -6px;
 }
 
 #toggle:checked + .hamburger + .nav {
@@ -222,7 +222,7 @@ Animations
 }
 #toggle:checked + .hamburger .meat {
   transform: rotate(45deg);
-  margin-top: -8px;
+  margin-top: -6px;
 }
 
 #toggle:checked + .hamburger + .nav {
