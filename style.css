@@ -70,9 +70,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 80px;
-  padding-right: 20px;
-  padding-left: 10px;
+  padding-left: 2vw;
   transition: all 0.7s ease-in;
 }
 
@@ -136,7 +134,7 @@ body {
   top: 4em;
   right: 5%; 
   margin-top: -45px;
-  width: 2em;
+  width: 2.2em;
   height: 45px;
   z-index: 500;
 }
@@ -145,10 +143,10 @@ body {
   position: relative;
   top: -3px;
   right: 5%;
-  width: 2.5em;
+  width: 2.6em;
   height: 5px;
   border-radius: 3px;
-  background: #ffffff;
+  background: #f37821;
   margin-top: 8px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
