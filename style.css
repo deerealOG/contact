@@ -279,7 +279,8 @@ Animations
 main {
   display: flex;
   border: solid;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 0 5vw;
 }
 #title {
   font-family: "Poppins";
@@ -342,15 +343,15 @@ main {
   top: 240px;
   display: flex;
   flex-direction: column;
-  justify-self: center;
-  align-self: center;
+  justify-self: flex-start;
+  align-self: flex-start;
   height: fit-content;
   padding-bottom: 100px;
 }
 #category {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding-bottom: 50px;
   gap: 50px;
