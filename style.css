@@ -62,10 +62,16 @@ body {
 .show {
   display: block;
 }
+.dropdown {
+  transition: all .5s ease;
+}
+.rotate {
+  transform: rotate(180deg);
+}
 
 #navbar {
   background: #262262;
-  height: 80px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -94,7 +100,7 @@ body {
 }
 #avatar img {
   height: auto;
-  width: 50px;
+  width: 40px;
 }
 
 #username {
@@ -132,7 +138,7 @@ body {
 .hamburger {
   position: absolute;
   top: 4em;
-  right: 5%; 
+  right: 2%; 
   margin-top: -45px;
   width: 2.2em;
   height: 40px;
@@ -141,10 +147,10 @@ body {
 
 .hamburger div {
   position: relative;
-  top: -6px;
+  top: -0.8em;
   right: 5%;
-  width: 2.6em;
-  height: 6px;
+  width: 2em;
+  height: 4px;
   border-radius: 3px;
   background: #f37821;
   margin-top: 8px;
@@ -201,7 +207,7 @@ Animations
 }
 #toggle:checked + .hamburger .meat {
   transform: rotate(45deg);
-  margin-top: -6px;
+  margin-top: -4px;
 }
 
 #toggle:checked + .hamburger + .nav {
@@ -222,7 +228,7 @@ Animations
 }
 #toggle:checked + .hamburger .meat {
   transform: rotate(45deg);
-  margin-top: -6px;
+  margin-top: -4px;
 }
 
 #toggle:checked + .hamburger + .nav {
@@ -235,9 +241,7 @@ Animations
 .down {
   color: white;
 }
-.caret {
-  display: none;
-}
+
 #dropDownCont {
   position: fixed;
   top: 80px;
@@ -278,7 +282,6 @@ Animations
 }
 main {
   display: flex;
-  border: solid;
   justify-content: flex-start;
   padding: 0 5vw;
 }
@@ -383,7 +386,6 @@ main {
   font-size: 1rem;
   line-height: 150%;
   color: #262262;
-  height: 500px;
 }
 
 aside {
@@ -461,10 +463,7 @@ aside {
     font-size: 1rem;
     line-height: 140%;
   }
-  #avatar img {
-    max-width: auto;
-    height: 100%;
-  }
+  
   
  
   #bigContainer {
@@ -560,9 +559,14 @@ aside {
   }
   .down {
     display: block;
+    color: #ffffff;
+    transition: all .5s ease;
   }
  
   .hamburger{
+    display: none;
+  }
+  .nav {
     display: none;
   }
  
@@ -596,7 +600,7 @@ aside {
   #category .desc {
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 1rem;
     line-height: 150%;
   }
